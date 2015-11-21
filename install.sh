@@ -11,4 +11,4 @@ echo "Installing thefuck"
 brew install thefuck
 
 echo "Symlinking files found in ./config to ~/.zsh-config"
-ln -s ./config ~/.zsh-config
+ln -s `pwd`/config ~/.zsh-config
