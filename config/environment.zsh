@@ -6,3 +6,5 @@ export PATH=$PATH:/usr/local/bin
 
 # Use brew's version of vim
 alias vim="/usr/local/bin/vim"
+
+export DEFAULT_USER=`whoami`
